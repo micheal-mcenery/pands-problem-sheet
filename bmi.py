@@ -18,3 +18,8 @@ format_bmi = "{:.2f}".format(bmi)
 
 # This line converts BMI to a string and prints the final output.
 print("Your BMI is " + str(format_bmi))
+
+# References Week 2
+# •	https://www.cdc.gov/healthyweight/assessing/bmi/adult_bmi/index.html#:~:text=How%20is%20BMI%20calculated%3F,-BMI%20is%20calculated&text=With%20the%20metric%20system%2C%20the,by%20height%20in%20meters%20squared.&text=Calculate%20BMI%20by%20dividing%20weight,a%20conversion%20factor%20of%20703
+# •	https://pythonguides.com/python-print-2-decimal-places/
+
