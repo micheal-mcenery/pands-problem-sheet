@@ -3,6 +3,7 @@
 # At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one.
 # Author: Micheal McEnery
 
+
 # This line records the positive integer inputted by the user and converts it into an integer
 p_integer = int(input("Please enter a positive integer: "))
 
