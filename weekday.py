@@ -1,5 +1,5 @@
 # weekday.py
-# This program outputs whetehr or not today is a weekday.
+# This program outputs whether or not today is a weekday.
 # Author: Micheal McEnery
 
 
