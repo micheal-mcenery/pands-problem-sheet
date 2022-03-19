@@ -3,12 +3,8 @@
 # Author: Micheal McEnery
 
 
-# This line asks the user to enter a sentence and then reverses the input using a slice that starts at the end of the string and ends at position 0 by moving one step backwards through the input. (see reference 1 for week 3)
-userInput = input("Please enter a sentence: ")[::-1]
-
-# This line uses a slice to move two steps forward through the reversed string input, thus selecting only every second character to be printed. (see reference 2 for week 3)
-print(userInput[::2])
-
+# This line asks the user to enter a sentence and prints out every second letter of the input in reverse order using a -2 splice (see references)
+print(input("Please enter a sentence: ")[::-2])
 
 
 # References
