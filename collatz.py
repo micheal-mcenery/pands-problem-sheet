@@ -4,17 +4,20 @@
 # Author: Micheal McEnery
 
 
-# This line records the positive integer inputted by the user and converts it into an integer
+# This line records the user input as "p_integer" and converts it into an integer.
 p_integer = int(input("Please enter a positive integer: "))
 
-# This line prints the initial uer input
-print(p_integer)
+# This line stores the output which will eventually be printed below.
+output = str(p_integer) + " "
 
-# This 'while loop' will continue looping the if statement until the integer = 1. The if statement assesses whether the integer is even or odd, performs the relevent calculations, and prints the post-calculation integer.
+# This while loop will continue looping the if statement until the integer = 1.
 while p_integer != 1:
+    # The if statement assesses whether the positive integer is even or odd, performs the relevent calculations, and adds the result to the output variable in sequencial order.
     if p_integer % 2 == 0:
         p_integer = p_integer // 2
-        print(p_integer)
+        output = output + str(p_integer) + " "
     else:
         p_integer = (p_integer * 3) + 1
-        print(p_integer)
+        output = output + str(p_integer) + " "
+
+print(output)
